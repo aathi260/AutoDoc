@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    }
+    .body{
+    margin:0;
+    padding: 0;
+    background-color:white;
+    }
+    .card{
+    position: relative;
+    top: 50px;
+    left: 450px;
+    display: grid;
+    grid-template-columns: 570px;
+    grid-template-rows: 210px 210px 80px;
+    grid-area:"image" "text";
+    text-align: center;
+    background: #f54291;
+    border-radius: 20px;
+    /* border: solid 2px  #f54291; */
+    /* box-shadow: 5px 5px 5px  #f54291; */
+    width: 40%;
+    }
+    .cardtext{
+    margin: 20px;
+    color: white;
+    }
+    .cardtext p{
+    opacity: 0.4;
+    font-size: 15px;
+    font-style: italic;
+    font-family: cursive;
+    color: pink;
+    }
+    .card{
+    margin: 15px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    }
+    
+    .container{
+    display: flex;
+    justify-content: space-between;
+    }
+    .doctorform td{
+      color: white;
+    }
+    
+    #submit{
+      text-align: center;
+      position: relative;
+      top: 50px;
+      border-radius: 20px;
+      width: 35%;
+      padding: 10px;
+    }
+    #submit:hover{
+      color: #f54291;
+    }

@@ -1,0 +1,21 @@
+.email{
+    width: 50%;
+    
+ 
+}
+
+.Login{
+    color: #f54291;
+}
+
+.subbut{
+    background-color: #f54291;
+}
+
+.borderform
+{
+    border: #f54291 solid;
+    position: relative;
+    width: 50%;
+    top: 50%;
+}
